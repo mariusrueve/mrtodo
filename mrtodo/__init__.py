@@ -5,7 +5,7 @@ __app_name__ = "mrtodo"
 __version__ = "0.1.0"
 
 (
-    SUCCESS,
+    SUCCESS,  # int = 0
     DIR_ERROR,
     FILE_ERROR,
     DB_READ_ERROR,
