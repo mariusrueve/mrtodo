@@ -1,4 +1,4 @@
-"""This module provides the RP To-Do model-controller."""
+"""This module provides the mrtodo model-controller."""
 # mrtodo/mrtodo.py
 
 from typing import Any, Dict, NamedTuple
