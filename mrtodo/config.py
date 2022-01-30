@@ -16,13 +16,9 @@ from mrtodo import (
 
 CONFIG_DIR_PATH = Path(typer.get_app_dir(__app_name__))
 CONFIG_FILE_PATH = CONFIG_DIR_PATH / "config.ini"  # use "/" to extend pathlib object
-"""Location of config file
-
-Windows: 
-    C:\Users\User\AppData\Roaming\mrtodo
-Linux (Ubuntu):
-    /home/wsl-marius/.config/mrtodo
-"""
+# Location of config file
+# Windows: C:\Users\User\AppData\Roaming\mrtodo
+# Linux (Ubuntu): /home/wsl-marius/.config/mrtodo
 
 
 def init_app(db_path: str) -> int:  # -> return value annotation
