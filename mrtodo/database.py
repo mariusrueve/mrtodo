@@ -1,4 +1,4 @@
-"""This module provides the RP To-Do database functionality."""
+"""This module provides the mrtodo database functionality."""
 # mrtodo/database.py
 
 import configparser
