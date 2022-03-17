@@ -1,5 +1,5 @@
 # mrtodo
-Command-Line To-Do App With Python and Typer
+Command-Line To-Do App with python and typer
 
 ## Installation
 
