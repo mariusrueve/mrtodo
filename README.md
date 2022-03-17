@@ -1,5 +1,5 @@
 # mrtodo
-Command-Line To-Do App with python and typer
+Command-Line To-Do App with python and [typer](https://github.com/tiangolo/typer)
 
 ## Installation
 
