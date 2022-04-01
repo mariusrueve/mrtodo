@@ -49,10 +49,20 @@ class DBResponse(NamedTuple):
 
 
 class DatabaseHandler:
+    """DatabaseHandler allows reading and writing data to the to-do database (json)"""
     def __init__(self, db_path: Path) -> None:
+        """Explanation of __init__ and self
+
+        self: used to represent the instance of a class. By using "self" we access the attribute and methods of the
+        class
+
+        __init__: This method is called when an object is created from a class, and it allows the class to initialize
+        the attribute of the class
+        """
         self._db_path = db_path
 
     def read_todos(self) -> DBResponse:
+        """Takes instance of a class as input and returns a DBResponse"""
         try:
             with self._db_path.open("r") as db:
                 try:
