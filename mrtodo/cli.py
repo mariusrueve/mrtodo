@@ -1,6 +1,5 @@
 """This module provides the mrtodo CLI."""
 # mrtodo/cli.py
-from builtins import min
 from pathlib import Path
 from typing import List, Optional
 import typer
